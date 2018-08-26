@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D25523272131B3A6009708CE /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = D25523262131B3A6009708CE /* Note.m */; };
+		D255232B2131B979009708CE /* NSDateFormatter+ASDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D25523292131B979009708CE /* NSDateFormatter+ASDateFormatter.m */; };
+		D25F1CC2213067EF00741C49 /* NotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25F1CC1213067EF00741C49 /* NotesViewController.m */; };
+		D25F1CC52130694100741C49 /* NotesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D25F1CC42130694100741C49 /* NotesTableViewCell.m */; };
+		D27D000E2130138C0067A99A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D27D000D2130138C0067A99A /* AppDelegate.m */; };
+		D27D00142130138C0067A99A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27D00122130138C0067A99A /* Main.storyboard */; };
+		D27D00172130138C0067A99A /* CiklumFirebaseTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D27D00152130138C0067A99A /* CiklumFirebaseTest.xcdatamodeld */; };
+		D27D00192130138D0067A99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27D00182130138D0067A99A /* Assets.xcassets */; };
+		D27D001C2130138D0067A99A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27D001A2130138D0067A99A /* LaunchScreen.storyboard */; };
+		D27D001F2130138D0067A99A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D27D001E2130138D0067A99A /* main.m */; };
+		F7898AC38FDDE2DF4E5A4E47 /* libPods-CiklumFirebaseTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C43A3CEBBE2E3BD3D7141C6 /* libPods-CiklumFirebaseTest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		792DF675E44A9161617C6A81 /* Pods-CiklumFirebaseTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumFirebaseTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CiklumFirebaseTest/Pods-CiklumFirebaseTest.release.xcconfig"; sourceTree = "<group>"; };
+		8C43A3CEBBE2E3BD3D7141C6 /* libPods-CiklumFirebaseTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CiklumFirebaseTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7A9AC1F67D0878786158E8 /* Pods-CiklumFirebaseTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CiklumFirebaseTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CiklumFirebaseTest/Pods-CiklumFirebaseTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D25523252131B3A6009708CE /* Note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		D25523262131B3A6009708CE /* Note.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		D25523292131B979009708CE /* NSDateFormatter+ASDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+ASDateFormatter.m"; sourceTree = "<group>"; };
+		D255232A2131B979009708CE /* NSDateFormatter+ASDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+ASDateFormatter.h"; sourceTree = "<group>"; };
+		D25F1CC0213067EF00741C49 /* NotesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesViewController.h; sourceTree = "<group>"; };
+		D25F1CC1213067EF00741C49 /* NotesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesViewController.m; sourceTree = "<group>"; };
+		D25F1CC32130694100741C49 /* NotesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotesTableViewCell.h; sourceTree = "<group>"; };
+		D25F1CC42130694100741C49 /* NotesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesTableViewCell.m; sourceTree = "<group>"; };
+		D27D00092130138C0067A99A /* CiklumFirebaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiklumFirebaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27D000C2130138C0067A99A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D27D000D2130138C0067A99A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D27D00132130138C0067A99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D27D00162130138C0067A99A /* CiklumFirebaseTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CiklumFirebaseTest.xcdatamodel; sourceTree = "<group>"; };
+		D27D00182130138D0067A99A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D27D001B2130138D0067A99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D27D001D2130138D0067A99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27D001E2130138D0067A99A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27D00062130138C0067A99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7898AC38FDDE2DF4E5A4E47 /* libPods-CiklumFirebaseTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5EBECE63795D28BC8AE9840 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A9AC1F67D0878786158E8 /* Pods-CiklumFirebaseTest.debug.xcconfig */,
+				792DF675E44A9161617C6A81 /* Pods-CiklumFirebaseTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D25523282131B979009708CE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D25523292131B979009708CE /* NSDateFormatter+ASDateFormatter.m */,
+				D255232A2131B979009708CE /* NSDateFormatter+ASDateFormatter.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D27D00002130138C0067A99A = {
+			isa = PBXGroup;
+			children = (
+				D27D000B2130138C0067A99A /* CiklumFirebaseTest */,
+				D27D000A2130138C0067A99A /* Products */,
+				C5EBECE63795D28BC8AE9840 /* Pods */,
+				F5D9CF70BF41F44BC56000AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D27D000A2130138C0067A99A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27D00092130138C0067A99A /* CiklumFirebaseTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D27D000B2130138C0067A99A /* CiklumFirebaseTest */ = {
+			isa = PBXGroup;
+			children = (
+				D25523282131B979009708CE /* Categories */,
+				D27D000C2130138C0067A99A /* AppDelegate.h */,
+				D27D000D2130138C0067A99A /* AppDelegate.m */,
+				D27D00122130138C0067A99A /* Main.storyboard */,
+				D27D00182130138D0067A99A /* Assets.xcassets */,
+				D27D001A2130138D0067A99A /* LaunchScreen.storyboard */,
+				D27D001D2130138D0067A99A /* Info.plist */,
+				D27D001E2130138D0067A99A /* main.m */,
+				D27D00152130138C0067A99A /* CiklumFirebaseTest.xcdatamodeld */,
+				D25F1CC0213067EF00741C49 /* NotesViewController.h */,
+				D25F1CC1213067EF00741C49 /* NotesViewController.m */,
+				D25F1CC32130694100741C49 /* NotesTableViewCell.h */,
+				D25F1CC42130694100741C49 /* NotesTableViewCell.m */,
+				D25523252131B3A6009708CE /* Note.h */,
+				D25523262131B3A6009708CE /* Note.m */,
+			);
+			path = CiklumFirebaseTest;
+			sourceTree = "<group>";
+		};
+		F5D9CF70BF41F44BC56000AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C43A3CEBBE2E3BD3D7141C6 /* libPods-CiklumFirebaseTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D27D00082130138C0067A99A /* CiklumFirebaseTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27D00222130138D0067A99A /* Build configuration list for PBXNativeTarget "CiklumFirebaseTest" */;
+			buildPhases = (
+				E33FD3284AC6F909104F6A90 /* [CP] Check Pods Manifest.lock */,
+				D27D00052130138C0067A99A /* Sources */,
+				D27D00062130138C0067A99A /* Frameworks */,
+				D27D00072130138C0067A99A /* Resources */,
+				5057BB462DE161556A7E14D0 /* [CP] Embed Pods Frameworks */,
+				44F7B3EBB379230A6980EA3E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CiklumFirebaseTest;
+			productName = CiklumFirebaseTest;
+			productReference = D27D00092130138C0067A99A /* CiklumFirebaseTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D27D00012130138C0067A99A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Artem Shvets";
+				TargetAttributes = {
+					D27D00082130138C0067A99A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D27D00042130138C0067A99A /* Build configuration list for PBXProject "CiklumFirebaseTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D27D00002130138C0067A99A;
+			productRefGroup = D27D000A2130138C0067A99A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27D00082130138C0067A99A /* CiklumFirebaseTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D27D00072130138C0067A99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27D001C2130138D0067A99A /* LaunchScreen.storyboard in Resources */,
+				D27D00192130138D0067A99A /* Assets.xcassets in Resources */,
+				D27D00142130138C0067A99A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44F7B3EBB379230A6980EA3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CiklumFirebaseTest/Pods-CiklumFirebaseTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5057BB462DE161556A7E14D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CiklumFirebaseTest/Pods-CiklumFirebaseTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E33FD3284AC6F909104F6A90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CiklumFirebaseTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27D00052130138C0067A99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25F1CC2213067EF00741C49 /* NotesViewController.m in Sources */,
+				D27D000E2130138C0067A99A /* AppDelegate.m in Sources */,
+				D25F1CC52130694100741C49 /* NotesTableViewCell.m in Sources */,
+				D255232B2131B979009708CE /* NSDateFormatter+ASDateFormatter.m in Sources */,
+				D25523272131B3A6009708CE /* Note.m in Sources */,
+				D27D001F2130138D0067A99A /* main.m in Sources */,
+				D27D00172130138C0067A99A /* CiklumFirebaseTest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D27D00122130138C0067A99A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27D00132130138C0067A99A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D27D001A2130138D0067A99A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27D001B2130138D0067A99A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D27D00202130138D0067A99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D27D00212130138D0067A99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D27D00232130138D0067A99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7A9AC1F67D0878786158E8 /* Pods-CiklumFirebaseTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NLG5S887D;
+				INFOPLIST_FILE = CiklumFirebaseTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArtemShvets.CiklumFireTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D27D00242130138D0067A99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792DF675E44A9161617C6A81 /* Pods-CiklumFirebaseTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6NLG5S887D;
+				INFOPLIST_FILE = CiklumFirebaseTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ArtemShvets.CiklumFireTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D27D00042130138C0067A99A /* Build configuration list for PBXProject "CiklumFirebaseTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27D00202130138D0067A99A /* Debug */,
+				D27D00212130138D0067A99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27D00222130138D0067A99A /* Build configuration list for PBXNativeTarget "CiklumFirebaseTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27D00232130138D0067A99A /* Debug */,
+				D27D00242130138D0067A99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D27D00152130138C0067A99A /* CiklumFirebaseTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D27D00162130138C0067A99A /* CiklumFirebaseTest.xcdatamodel */,
+			);
+			currentVersion = D27D00162130138C0067A99A /* CiklumFirebaseTest.xcdatamodel */;
+			path = CiklumFirebaseTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D27D00012130138C0067A99A /* Project object */;
+}
